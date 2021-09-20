@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/menu_favorite"
+            android:icon="@drawable/ic_baseline_favorite_24"
+            android:title="Favorite" />
+        <item
+            android:id="@+id/menu_history"
+            android:icon="@drawable/ic_baseline_history_24"
+            android:title="History" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/menu_profile"
+                android:icon="@drawable/ic_baseline_person_24"
+                android:title="My profile" />
+            <item
+                android:id="@+id/menu_change_pass"
+                android:icon="@drawable/ic_baseline_lock_24"
+                android:title="Change password" />
+            <item
+                android:id="@+id/menu_logout"
+                android:icon="@drawable/ic_baseline_redo_24"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+
+    <item android:title="Firebase">
+        <menu>
+            <item
+                android:id="@+id/menu_database"
+                android:icon="@drawable/ic_baseline_insert_chart_24"
+                android:title="Firebase" />
+        </menu>
+    </item>
+
+
+</menu>
